@@ -33,7 +33,6 @@ namespace Hotel
             }
             habitaciones[habitacionActual] = new Habitacion(nombre, cedula, numero);
             habitacionActual++;
-            Console.WriteLine(habitacionActual);
             return true;
         }
         public void ListarClientes()
